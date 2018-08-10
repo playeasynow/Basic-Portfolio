@@ -10,36 +10,42 @@ h1 {
     color: white;
 }
 
-.column {
+#topBox {
+    background-color: white; 
+    text-align: center;
+}
+
+#nameBox {
+    position: relative;
     float: left;
     padding: 15px;
-}
-
-.column.name {
-    position: relative;
-    background: teal;
-    padding: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-top: 0px;
+    margin-right: 360px;
     margin-bottom: 10px;
-    margin-left: 360px;
-    margin-right: 0px;
+    margin-left: 340px;
+    background: teal;
 }
 
-.column.nav {
+#navButtonLinks {
+    position: relative;
+    float: right;
+    padding 15px;
     list-style-type: none;
-    margin-top: 20px;
-    margin-left: 340px;
-    padding: 0;
     overflow: hidden;
 }
 
-li {
+#topBox:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.navLinks {
     float: right;
     border-right: 1px solid #aaaaaa;
 }
 
-li:first-child {
+.navLinks:first-child {
     border-right: none;
 }
 
@@ -49,17 +55,6 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
-
-.row {
-    background-color: white; 
-    text-align: center;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 h2 {
