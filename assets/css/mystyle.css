@@ -1,0 +1,121 @@
+body {
+    background-image: url("/Users/ezequiel/Projects/Basic-Portfolio/assets/images/memphis-colorful.png");
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    color: white;
+}
+
+.column {
+    float: left;
+    padding: 15px;
+}
+
+.column.name {
+    position: relative;
+    background: teal;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 360px;
+    margin-right: 0px;
+}
+
+.column.nav {
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 340px;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+    border-right: 1px solid #aaaaaa;
+}
+
+li:first-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.row {
+    background-color: white; 
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 25px;
+    color: #4aaaa5;
+}
+
+.about {
+    float: left;
+    padding: 15px;
+}
+
+.about me {
+    position: relative;
+    width: 10%;
+}
+
+.about photo {
+    position: relative;
+    width: 30%;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 360px;
+    margin-right: 0px;
+}
+
+.about text {
+    position: relative;
+    width: 60%;
+}
+
+.row-about {
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 360px;
+    margin-right: 360px;
+}
+
+.row-about:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: white;
+    font-size: 11px;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5
+}
