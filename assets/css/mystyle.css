@@ -10,10 +10,11 @@ h1 {
 }
 
 #topBox {
-    background-color: white; 
+    background-color: #ffffff; 
     text-align: center;
     height: 100px;
     width: auto;
+    border-bottom: 1px solid #cccccc;
 }
 
 #nameBox {
@@ -24,6 +25,7 @@ h1 {
     margin-bottom: 0px;
     margin-left: 360px;
     background: teal;
+    border-bottom: 1px solid #cccccc;
 }
 
 #navButtonLinks {
@@ -67,10 +69,11 @@ h2 {
 }
 
 #aboutMeBox {
-    background-color: white;
+    background-color: #ffffff;
     margin-top: 30px;
     margin-left: 360px;
     margin-right: 360px;
+    padding: 20px;
 }
 
 #aboutMeTitle {
