@@ -27,16 +27,17 @@ h1 {
 }
 
 #navButtonLinks {
+    float: right;
     padding: 15px;
-    margin-top: 0px;
+    margin-top: 20px;
     margin-right: 360px;
     margin-bottom: 0px;
-    margin-left: 100px;
+    margin-left: 0px;
     list-style-type: none;
     overflow: hidden;
 }
 
-#topBox:after {
+#topBox::after {
     content: "";
     display: inline;
     clear: both;
@@ -44,6 +45,11 @@ h1 {
 
 li {
     float: left;
+    border-right: 1px solid #cac9c9;
+}
+
+li:last-child {
+    border-right: none;
 }
 
 li a {
@@ -52,7 +58,6 @@ li a {
     padding: 0px 16px;
     text-align: center;
     text-decoration: none;
-    border-right: 1px solid #aaaaaa;
 }
 
 h2 {
@@ -61,46 +66,32 @@ h2 {
     color: #4aaaa5;
 }
 
-.about {
-    float: left;
-    padding: 15px;
-}
-
-.about me {
-    position: relative;
-    width: 10%;
-}
-
-.about photo {
-    position: relative;
-    width: 30%;
-    padding: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 10px;
-    margin-left: 360px;
-    margin-right: 0px;
-}
-
-.about text {
-    position: relative;
-    width: 60%;
-}
-
-.row-about {
+#aboutMeBox {
     background-color: white;
     margin-top: 30px;
     margin-left: 360px;
     margin-right: 360px;
 }
 
-.row-about:after {
+#aboutMeTitle {
+    padding-top: 10px;
+}
+
+#aboutPhoto {
+    float: left;
+}
+
+#aboutText {
+    float: left;
+}
+
+#aboutMeBox::after {
     content: "";
-    display: table;
+    display: block;
     clear: both;
 }
 
-.footer {
+#footer {
     position: fixed;
     bottom: 0;
     width: 100%;
