@@ -114,12 +114,9 @@ hr {
 }
 
 /* PORTFOLIO-SPECIFIC CONTENT */
-#row1 {
-    float: left;
-}
-
 #redFlower {
     position: relative;
+    float: left;
     height: 200px;
     width: 200px;
     background-image: url("/Users/ezequiel/Projects/Basic-Portfolio/assets/images/P1PlaceholderBromeliad.jpg");
@@ -138,6 +135,7 @@ hr {
 
 #blueFlower {
     position: relative;
+    float: left;
     height: 200px;
     width: 200px;
     background-image: url("/Users/ezequiel/Projects/Basic-Portfolio/assets/images/P2PlaceholderBluebonnet.jpeg");
@@ -154,12 +152,15 @@ hr {
     background: #4aaaa5;
 }
 
-#row2 {
-    float: left;
+#row1::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 #orangeFlower {
     position: relative;
+    float: left;
     height: 200px;
     width: 200px;
     background-image: url("/Users/ezequiel/Projects/Basic-Portfolio/assets/images/P3PlaceholderOrange.jpg");
@@ -178,6 +179,7 @@ hr {
 
 #purpleFlower {
     position: relative;
+    float: left;
     height: 200px;
     width: 200px;
     background-image: url("/Users/ezequiel/Projects/Basic-Portfolio/assets/images/P4PlaceholderPurple.jpg");
@@ -194,12 +196,15 @@ hr {
     background: #4aaaa5;
 }
 
-#row3 {
-    float: left;
+#row2::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 #pinkFlower {
     position: relative;
+    float: left;
     height: 200px;
     width: 200px;
     background-image: url("/Users/ezequiel/Projects/Basic-Portfolio/assets/images/P5PlaceholderPink.jpg");
@@ -214,6 +219,12 @@ hr {
     padding: 10px;
     text-align: center;
     background: #4aaaa5;
+}
+
+#row3::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 #mainContentBox::after {
