@@ -1,47 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-image: url("/Users/ezequiel/Projects/Basic-Portfolio/assets/images/memphis-colorful.png");
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-    margin: auto 0;
+    margin: auto;
+    height: auto;
 }
 
 h1 {
     font-family: Georgia, Times, "Times New Roman", serif;
-    color: white;
+    color: #ffffff;
+    margin: 0px;
 }
 
-#topBox {
-    background-color: #ffffff; 
-    text-align: center;
-    height: 100px;
-    width: auto;
+#headerBox {
+    background-color: #ffffff;
     border-bottom: 1px solid #cccccc;
+    height: 87px;
+}
+
+#nameNavBox {
+    text-align: center;
+    background-color: #ffffff;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #nameBox {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
     float: left;
-    padding: 10px;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 360px;
-    background: teal;
+    background: #4aaaa5;
     border-bottom: 1px solid #cccccc;
 }
 
 #navButtonLinks {
     float: right;
-    padding: 15px;
-    margin-top: 20px;
-    margin-right: 360px;
-    margin-bottom: 0px;
-    margin-left: 0px;
+    margin-top: 34px;
+    margin-bottom: 34px;
     list-style-type: none;
     overflow: hidden;
 }
 
-#topBox::after {
+#headerBox::after {
     content: "";
-    display: inline;
+    display: block;
     clear: both;
 }
 
@@ -70,14 +78,14 @@ h2 {
 
 #aboutMeBox {
     background-color: #ffffff;
-    margin-top: 30px;
-    margin-left: 360px;
-    margin-right: 360px;
-    padding: 20px;
+    border: 1px solid #dddddd;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #aboutMeTitle {
-    padding-top: 10px;
+
 }
 
 #aboutPhoto {
@@ -97,9 +105,10 @@ h2 {
 #footer {
     position: fixed;
     bottom: 0;
+    height: 5%;
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     text-align: center;
     color: white;
     font-size: 11px;
