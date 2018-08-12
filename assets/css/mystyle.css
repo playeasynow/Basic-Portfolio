@@ -234,6 +234,44 @@ hr {
     clear: both;
 }
 
+#name, #email, #message {
+    margin-left: 40px;
+    width: 90%;
+    color: #777777;
+}
+
+#fullNameBox, #emailBox {
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    width: 90%;
+    padding: 8px;
+    color: #777777;
+    border: 1px solid #dddddd;   
+}
+
+#messageBox {
+    margin-left: 40px;
+    margin-top: 5px;
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #dddddd;
+    color: #777777;
+}
+
+#submit {
+    margin-left: 40px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: #ffffff;
+    background: #4aaaa5;
+    border: none;
+}
+
 #mainContentBox::after {
     content: "";
     display: block;
