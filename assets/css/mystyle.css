@@ -113,16 +113,114 @@ hr {
     color: #777777;
 }
 
+/* PORTFOLIO-SPECIFIC CONTENT */
+#row1 {
+    float: left;
+}
+
+#redFlower {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-image: url("/Users/ezequiel/Projects/Basic-Portfolio/assets/images/P1PlaceholderBromeliad.jpg");
+}
+
+#redDescription {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 15px;
+    color: #ffffff;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    background: #4aaaa5;
+}
+
+#blueFlower {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-image: url("/Users/ezequiel/Projects/Basic-Portfolio/assets/images/P2PlaceholderBluebonnet.jpeg");
+}
+
+#blueDescription {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 15px;
+    color: #ffffff;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    background: #4aaaa5;
+}
+
+#row2 {
+    float: left;
+}
+
+#orangeFlower {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-image: url("/Users/ezequiel/Projects/Basic-Portfolio/assets/images/P3PlaceholderOrange.jpg");
+}
+
+#orangeDescription {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 15px;
+    color: #ffffff;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    background: #4aaaa5;
+}
+
+#purpleFlower {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-image: url("/Users/ezequiel/Projects/Basic-Portfolio/assets/images/P4PlaceholderPurple.jpg");
+}
+
+#purpleDescription {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 15px;
+    color: #ffffff;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    background: #4aaaa5;
+}
+
+#row3 {
+    float: left;
+}
+
+#pinkFlower {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-image: url("/Users/ezequiel/Projects/Basic-Portfolio/assets/images/P5PlaceholderPink.jpg");
+}
+
+#pinkDescription {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 15px;
+    color: #ffffff;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    background: #4aaaa5;
+}
+
 #mainContentBox::after {
     content: "";
     display: block;
     clear: both;
 }
-
-/* PORTFOLIO-SPECIFIC CONTENT */
-
-
-
 
 #footer {
     position: fixed;
@@ -132,7 +230,7 @@ hr {
     padding-top: 6px;
     padding-bottom: 0px;
     text-align: center;
-    color: white;
+    color: #ffffff;
     font-size: 11px;
     background-color: #666666;
     border-top: 8px solid #4aaaa5
