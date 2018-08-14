@@ -13,6 +13,8 @@ h1 {
     font-family: Georgia, Times, "Times New Roman", serif;
     color: #ffffff;
     margin: 0px;
+    font-size: 36px;
+    font-weight: bold;
 }
 
 /* TOP WHITE BOX WITH NAME AND NAV BAR */
@@ -71,10 +73,21 @@ li a {
     text-decoration: none;
 }
 
+li a:hover:not(.active) {
+    background-color: #ffffff;
+    color: #91d4d1;
+}
+
+.active {
+    background-color: #91d4d1;
+    color: #ffffff;
+}
+
 h2 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 25px;
     color: #91d4d1;
+    font-weight: bold;
 }
 
 /* MAIN CONTENT BOX WITH VARIOUS ELEMENTS */
@@ -109,8 +122,18 @@ hr {
 #aboutText {
     float: none;
     margin-right: 40px;
-    padding-top: 3px;
     color: #777777;
+    padding: 10px;
+}
+
+span {
+    font-style: italic;
+    color: #91d4d1;
+}
+
+p {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 /* PORTFOLIO-SPECIFIC CONTENT */
@@ -281,6 +304,10 @@ hr {
 @keyframes animatedBackground {
     from { background-position: 0 0; }
     to { background-position: 200px 0; }
+}
+
+i {
+    font-style: italic;
 }
 
 #footer {
